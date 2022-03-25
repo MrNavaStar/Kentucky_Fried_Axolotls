@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[39,)"
+license="MIT"
+
+[[mods]]
+modId="kfa"
+version="1.0"
+
+displayName="Kentucky Fried Axolotls"
+logoFile="logo.png"
+authors="MrNavaStar"
+description="Fry up them yummy axolotls"
+
+[[dependencies.axolotl]]
+   modId="forge"
+   mandatory=true
+   versionRange="[39,)"
+   ordering="NONE"
+   side="BOTH"
+
+[[dependencies.axolotl]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.18.1,1.18.2)"
+   ordering="NONE"
+   side="BOTH"
