@@ -13,13 +13,11 @@
     "requirement": {
       "trigger": "minecraft:consume_item",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "kfa:fried_axolotl"
-            ]
-          }
-        ]
+        "item": {
+          "items": [
+            "kfa:fried_axolotl"
+          ]
+        }
       }
     }
   }
